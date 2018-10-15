@@ -2,6 +2,12 @@
 
 Proyecto personal de pasatiempo
 
+CONFIGURACION INICIALES
+
+habilitar uso de archivos .htaccess
+tener instalado composer (aunque quiza no sea necesario ya que viene todo las librerias necesarias en vendor)
+
+
 IDEA:
 
 framework usando namespace
