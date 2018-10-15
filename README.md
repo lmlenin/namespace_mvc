@@ -4,6 +4,7 @@ Proyecto personal de pasatiempo
 
 CONFIGURACION INICIALES
 
+PHP 7+
 habilitar uso de archivos .htaccess
 tener instalado composer (aunque quiza no sea necesario ya que viene todo las librerias necesarias en vendor)
 
