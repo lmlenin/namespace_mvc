@@ -1,0 +1,91 @@
+.chat-sidebar
+{
+	width: 200px;
+	/*position: fixed;*/
+	height: 100%;
+	/*right: 0px;*/
+	/*top: 0px;*/
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/*border: 1px solid rgba(29, 49, 91, .3);*/
+}
+
+a
+{
+	color: #1b6ec7;
+}
+
+/* chat en el dashboard*/
+.me{
+    font-size: 14px;
+    margin: 0px;
+    border-right: 3px solid #60DF88 !important;
+    padding: 5px;
+    background-color: rgb(239, 255, 241);
+    border-radius: 6px;
+}
+
+.you{
+    font-size: 14px;
+    margin: 0px;
+    border-left: 3px solid rgb(255, 112, 0) !important;
+    padding: 5px;
+    padding-left:10px;
+    background-color: rgb(247, 247, 214);
+    border-radius: 6px;
+}
+
+.img_header{
+	width: 25px;
+	border-radius:  50%;
+}
+.msg_scroll{
+	overflow-y: scroll;
+}
+
+/* chat en el dashboard*/
+
+.popup-box
+{
+	display: none;
+	position: fixed;
+	bottom: 60px;
+	right: 220px;
+	height: 285px;
+	background-color: rgb(237, 239, 244);
+	width: 300px;
+	border: 1px solid rgba(29, 49, 91, .3);
+}
+
+.popup-box .popup-head
+{
+	background-color: #6d84b4;
+	padding: 5px;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+	clear: both;
+}
+
+.popup-box .popup-head .popup-head-left
+{
+	float: left;
+}
+
+.popup-box .popup-head .popup-head-right
+{
+	float: right;
+	opacity: 0.5;
+}
+
+.popup-box .popup-head .popup-head-right a
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+.popup-box .popup-messages
+{
+	height: 77%;
+	overflow-y: scroll;
+}

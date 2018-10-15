@@ -1,0 +1,7 @@
+bin
+vendor
+composer.lock
+reports/
+fuzzingclient.json
+fuzzingserver.json
+node_modules

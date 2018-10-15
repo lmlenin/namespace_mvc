@@ -1,0 +1,30 @@
+{
+    "name": "nekland/woketo",
+    "license": "MIT",
+    "type": "library",
+    "description": "A WebSocket library for PHP",
+    "autoload": {
+        "psr-4": {
+            "Nekland\\Woketo\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.0",
+        "react/event-loop": "^1.0.0",
+        "react/socket": "^1.0.0",
+        "nekland/tools": "^1.0 || ^2.0",
+        "psr/log": "^1.0",
+        "react/dns": "^0.4.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
